@@ -9,6 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private int skorA = 0;
+    private int skorB = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,5 +23,25 @@ public class MainActivity extends AppCompatActivity {
         textViewA.setText(String.valueOf(skorA));
 
 
+    }
+
+    public void tambah2pointA(View view) {
+        skorA = skorA+2;
+        TextView textViewA = findViewById(R.id.skorA);
+        textViewA.setText(String.valueOf(skorA));
+
+    }
+
+    public void tambah1pointA(View view) {
+        skorA= skorA+1;
+        TextView textViewA = findViewById(R.id.skorA);
+        textViewA.setText(String.valueOf(skorA));
+    }
+
+
+    public void tambah3poinB(View view) {
+        skorB = skorB+3;
+        TextView textViewB = findViewById(R.id.skorB);
+        textViewB.setText(String.valueOf(skorB));
     }
 }
