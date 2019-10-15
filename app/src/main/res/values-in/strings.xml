@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Makan Yuk</string>
+    <string name="app_name">Basket Yuk</string>
     <string name="makanan_enak">Makanan Enak</string>
+    <string name="restoran_rekomendasi">Restoran Rekomendasi</string>
+    <string name="tombol_back">tombol back</string>
+    <string name="tombol_love">tombol love</string>
+    <string name="tanding_basket">Tanding Basket</string>
+    <string name="reset">RESET</string>
+    <string name="_3_point1">+3 POINT</string>
+    <string name="_1_point1">+1 POINT</string>
+    <string name="_2_point1">+2 POINT</string>
+    <string name="_3_point">+3 POINT</string>
+    <string name="_2_point">+2 POINT</string>
+    <string name="_1_point">+1 POINT</string>
+    <string name="_01">0</string>
+    <string name="_0">0</string>
+    <string name="team_b">Team B</string>
+    <string name="team_a">Team A</string>
 </resources>
