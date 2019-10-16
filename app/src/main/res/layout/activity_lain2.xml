@@ -30,14 +30,14 @@
         android:layout_height="40dp"
         android:background="#AA9E9E9E"
         android:paddingTop="4dp"
+        android:paddingEnd="8dp"
         android:paddingRight="8dp"
         android:text="@string/tanding_basket"
         android:textColor="#FFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="parent"
-        android:paddingEnd="8dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -159,11 +159,12 @@
         android:id="@+id/pointB2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:onClick="tambah2pointB"
         android:text="@string/_2_point"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -171,6 +172,7 @@
 
     <Button
         android:id="@+id/pointB1"
+        android:onClick="tambah1pointB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -200,6 +202,7 @@
 
     <Button
         android:id="@+id/reset"
+        android:onClick="reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

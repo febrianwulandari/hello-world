@@ -44,4 +44,29 @@ public class MainActivity extends AppCompatActivity {
         TextView textViewB = findViewById(R.id.skorB);
         textViewB.setText(String.valueOf(skorB));
     }
+
+    public void tambah2pointB(View view) {
+        skorB = skorB+2;
+        TextView textViewB = findViewById(R.id.skorB);
+        textViewB.setText(String.valueOf(skorB));
+    }
+
+
+    public void tambah1pointB(View view) {
+        skorB = skorB+1;
+        TextView textViewB = findViewById(R.id.skorB);
+        textViewB.setText(String.valueOf(skorB));
+    }
+
+    public void reset(View view) {
+        skorA = 0;
+        TextView textViewA = findViewById(R.id.skorA);
+        textViewA.setText(String.valueOf(skorA));
+
+        skorB = 0;
+        TextView textViewB = findViewById(R.id.skorB);
+        textViewB.setText(String.valueOf(skorB));
+
+
+    }
 }
